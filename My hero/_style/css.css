@@ -1,0 +1,148 @@
+/* CSS */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+body{
+    background-image: url("../_img/background4.jpg");
+    background-size: 100%;
+    display:block;
+    background-repeat: no-repeat;
+    background-color: aquamarine
+    
+    
+        
+     
+}
+
+/* programing menu */
+
+a{
+    text-decoration: none;
+    color: cyan;
+    
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#img_menu{
+    width:40px;
+    
+    
+}
+
+#chec{
+    display: none;
+}
+
+nav#menu{
+    color: cornflowerblue;
+    background-color: black;
+    width: 190px;
+    height: 100%;
+    position: absolute;
+    left: -190px;
+    transition: 0.6s;
+    opacity: 0.6;
+    
+}
+nav#menu ul{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    
+}
+
+nav#menu ul li{
+    display: block;
+    padding: 30px 15px;
+    text-align: center;
+    
+}
+
+nav#menu ul li:hover{
+    background-color: rebeccapurple;    
+}
+
+nav#menu a:hover{
+    color: white;
+    
+}
+
+label#label_menu{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+input[type="checkbox"]#chec:checked ~ nav{
+    transform: translateX(190px);
+}
+
+/* Logo */
+
+#img_my_hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+/* sobre */
+    
+div#sobre{
+    display: block;
+    background-color: #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    width: 800px;
+    opacity: 0.8;
+}
+
+#png{
+    width: 300px;
+    height: 350px;
+    opacity: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    
+}
+
+p#sobre{
+    font-family: monospace;
+    font-size: 52px;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#text_sobre{
+    font-family: monospace;
+    display: block;
+    float: right;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: inherit
+    
+    
+}
+
+/* create */
+
+p#creator{
+    display:block;
+    text-align:right;
+    
+}
